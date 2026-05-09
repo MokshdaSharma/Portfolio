@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github } from 'lucide-react';
+import { Github, ArrowUpRight } from 'lucide-react';
 import { Reveal } from '@/components/reveal';
 import { buttonClassName } from '@/components/ui/button';
 import type { ProjectItem } from '@/lib/site';
@@ -25,7 +25,11 @@ export function ProjectCard({ project, index = 0 }: Props) {
           ))}
         </div>
 
-        <div className="mt-6">
+        <div className="mt-6 flex flex-wrap gap-3">
+          <Link href={`/projects/${project.slug}`} className={buttonClassName('primary', 'text-xs')}>
+            <ArrowUpRight className="h-4 w-4" />
+            View Case Study
+          </Link>
           <Link href={project.githubUrl} target="_blank" rel="noreferrer" className={buttonClassName('secondary', 'text-xs')}>
             <Github className="h-4 w-4" />
             GitHub
