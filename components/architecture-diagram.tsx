@@ -20,9 +20,6 @@ export function ArchitectureDiagram({ nodes, className }: Props) {
           </div>
         ))}
       </div>
-      <div className="mt-4 rounded-2xl border border-dashed border-white/10 bg-black/20 px-4 py-3 text-xs leading-6 text-slate-400">
-        Placeholder architecture diagram. Replace with a production SVG, Mermaid export, or system design image when the project is finalized.
-      </div>
     </div>
   );
 }

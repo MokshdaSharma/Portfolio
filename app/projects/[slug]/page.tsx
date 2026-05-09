@@ -101,9 +101,9 @@ export default async function ProjectPage({ params }: Props) {
 
       <div className="mt-6 grid gap-6 lg:grid-cols-2">
         <Reveal>
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
+          <div className="flex h-full flex-col rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
             <p className="text-xs uppercase tracking-[0.35em] text-sky-300/75">Challenges & Solutions</p>
-            <ul className="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+            <ul className="mt-4 flex-1 space-y-3 text-sm leading-7 text-slate-300">
               {project.challenges.map((challenge) => (
                 <li key={challenge} className="rounded-2xl border border-white/10 bg-black/20 p-4">
                   {challenge}
@@ -114,9 +114,9 @@ export default async function ProjectPage({ params }: Props) {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
+          <div className="flex h-full flex-col rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
             <p className="text-xs uppercase tracking-[0.35em] text-sky-300/75">Impact</p>
-            <ul className="mt-4 space-y-3 text-sm leading-7 text-slate-300">
+            <ul className="mt-4 flex-1 space-y-3 text-sm leading-7 text-slate-300">
               {project.impact.map((item) => (
                 <li key={item} className="rounded-2xl border border-white/10 bg-black/20 p-4">
                   {item}
