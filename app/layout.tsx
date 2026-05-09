@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Mokshda Sharma' }],
   openGraph: {
     title: 'Mokshda Sharma | ML Engineer · GenAI Developer',
-    description: 'Recruiter-focused AI/ML portfolio with production ML, GenAI, and geospatial intelligence projects.',
+    description: 'ML Engineer and GenAI Developer portfolio showcasing projects in NLP, RAG, geospatial AI, and production ML.',
     type: 'website'
   }
 };

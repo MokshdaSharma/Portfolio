@@ -59,9 +59,9 @@ export const profile = {
   degree: 'B.E. CSE (AI & ML - IBM)',
   cgpa: '8.64',
   bio:
-    'AI systems engineer focused on shipping production-ready machine learning, retrieval-augmented generation, and data intelligence products with measurable user and business impact.',
+    'AI-ML systems engineer focused on shipping production-ready machine learning, RAG, and data intelligence products with measurable user and business impact.',
   headline:
-    'Building intelligent systems with a production ML mindset, strong deployment discipline, and a bias toward useful AI products.'
+    'Building intelligent systems with a production ML mindset, data-driven insights, and a bias toward useful AI products.'
 };
 
 export const typingPhrases = ['ML Engineer', 'GenAI Developer', 'Building Intelligent Systems'];
@@ -69,18 +69,18 @@ export const typingPhrases = ['ML Engineer', 'GenAI Developer', 'Building Intell
 export const skillGroups: Record<string, SkillGroup> = {
   languages: {
     title: 'Languages',
-    level: 92,
-    items: ['Python', 'C++', 'SQL', 'JavaScript', 'TypeScript']
+    level: 90,
+    items: ['Python', 'C++', 'SQL']
   },
   frameworks: {
     title: 'Frameworks',
     level: 90,
-    items: ['FastAPI', 'Streamlit', 'MERN Stack', 'TensorFlow', 'Keras', 'PyTorch', 'HuggingFace Transformers']
+    items: ['FastAPI', 'LangChain','Streamlit', 'TensorFlow', 'Keras', 'PyTorch', 'HuggingFace Transformers']
   },
   ai: {
     title: 'AI Specializations',
     level: 94,
-    items: ['Machine Learning', 'Deep Learning', 'NLP', 'LLMs', 'Retrieval-Augmented Generation', 'Agentic AI']
+    items: ['Machine Learning', 'Deep Learning', 'NLP', 'LLMs', 'RAG', 'Agentic AI', 'CV']
   },
   tools: {
     title: 'Tools',
@@ -105,20 +105,6 @@ export const experience: ExperienceItem[] = [
     ]
   },
   {
-    role: 'Data Analyst Intern',
-    company: 'PrepInsta',
-    location: 'Remote / India',
-    duration: '12/2023 - 01/2024',
-    summary:
-      'Built interactive AQI dashboards for exploratory analysis of India air quality trends using analytical and visualization tools.',
-    bullets: [
-      'Worked with a team to refine AQI datasets, structure feature views, and analyze patterns across regions and time windows.',
-      'Created interactive dashboards in Tableau to support deeper insight discovery and stakeholder review.',
-      'Used MS Excel, Python, and data analysis workflows to clean, transform, and explore the dataset before visualization.',
-      'Focused on presenting the information in a way that made air quality patterns easier to understand at a glance.'
-    ]
-  },
-  {
     role: 'Data Scientist Intern',
     company: 'Marktine Technology',
     location: 'Remote / India',
@@ -130,6 +116,20 @@ export const experience: ExperienceItem[] = [
       'Built car price and Airbnb price modeling solutions that highlighted feature importance, prediction stability, and business-facing outputs.',
       'Automated preprocessing steps for missing values, categorical encoding, scaling, and train-test reproducibility.',
       'Packaged interactive Streamlit ML apps to demo model outputs, sanity-check predictions, and accelerate stakeholder reviews.'
+    ]
+  },
+  {
+    role: 'Data Analyst Intern',
+    company: 'PrepInsta',
+    location: 'Remote / India',
+    duration: '12/2023 - 01/2024',
+    summary:
+      'Built interactive AQI dashboards for exploratory analysis of India air quality trends using analytical and visualization tools.',
+    bullets: [
+      'Worked with a team to refine AQI datasets, structure feature views, and analyze patterns across regions and time windows.',
+      'Created interactive dashboards in Tableau to support deeper insight discovery and stakeholder review.',
+      'Used MS Excel, Python, and data analysis workflows to clean, transform, and explore the dataset before visualization.',
+      'Focused on presenting the information in a way that made air quality patterns easier to understand at a glance.'
     ]
   }
 ];
@@ -162,7 +162,7 @@ export const projects: ProjectItem[] = [
       'Improved interpretability by translating model outputs into actionable crop guidance.',
       'Established a foundation for scalable AI-enabled agricultural decision support.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   },
   {
@@ -192,7 +192,7 @@ export const projects: ProjectItem[] = [
       'Added explainability to make AI-assisted scoring more trustworthy.',
       'Designed for rapid iteration on recruiter-facing GenAI workflows.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   },
   {
@@ -222,7 +222,7 @@ export const projects: ProjectItem[] = [
       'Created a deployable recommendation workflow with clean backend boundaries.',
       'Strengthened portfolio depth in LLM-assisted product engineering.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   },
   {
@@ -251,7 +251,7 @@ export const projects: ProjectItem[] = [
       'Strengthened understanding of architecture design tradeoffs.',
       'Positioned the portfolio as technically ambitious and exploratory.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   },
   {
@@ -280,7 +280,7 @@ export const projects: ProjectItem[] = [
       'Showed practical awareness of defense and urban intelligence needs.',
       'Combined GIS tooling with ML-oriented geospatial thinking.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   },
   {
@@ -310,7 +310,7 @@ export const projects: ProjectItem[] = [
       'Demonstrated full-stack LLM product engineering with backend orchestration.',
       'Strengthened the portfolio with a startup-style applied GenAI use case.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   },
   {
@@ -339,7 +339,7 @@ export const projects: ProjectItem[] = [
       'Showed the ability to build domain-specific analysis tools with practical UI delivery.',
       'Added another technically credible AI application outside standard tabular ML.'
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/MokshdaSharma',
     liveDemoUrl: '#'
   }
 ];
@@ -378,6 +378,11 @@ export const publications: PublicationItem[] = [featuredPublication, publication
 
 export const achievements: AchievementItem[] = [
   {
+    title: 'Best Paper Presentation Award',
+    detail: 'From Pixels to Language',
+    description: 'Recognized for presenting the visual reasoning benchmarking paper comparing GPT-4o and Claude-Sonnet-4.5.'
+  },
+  {
     title: '3rd Place',
     detail: 'Biomimicry Build-a-thon',
     description: 'Recognized for a bio-inspired systems approach and strong technical execution.'
@@ -391,11 +396,6 @@ export const achievements: AchievementItem[] = [
     title: 'Achiever’s Award',
     detail: '2024-25',
     description: 'Acknowledged for consistent performance, initiative, and applied problem solving.'
-  },
-  {
-    title: 'Best Paper Presentation Award',
-    detail: 'From Pixels to Language',
-    description: 'Recognized for presenting the visual reasoning benchmarking paper comparing GPT-4o and Claude-Sonnet-4.5.'
   }
 ];
 

@@ -55,7 +55,7 @@ export function HeroSection() {
               </div>
               <div className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl">
                 <p className="text-xs uppercase tracking-[0.35em] text-sky-300/75">Focus</p>
-                <p className="mt-3 text-base font-medium text-white">AI systems + product engineering</p>
+                <p className="mt-3 text-base font-medium text-white">Machine Learning & Data Science</p>
               </div>
             </div>
           </Reveal>
