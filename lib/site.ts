@@ -54,10 +54,10 @@ export type LeadershipItem = {
 
 export const profile = {
   name: 'Mokshda Sharma',
-  role: 'ML Engineer | Data Scientist | GenAI Developer',
+  role: 'ML Engineer | Data Scientist ',
   location: 'Mohali, India',
   degree: 'B.E. CSE (AI & ML - IBM)',
-  cgpa: '8.64',
+  cgpa: '8.34',
   bio:
     'AI-ML systems engineer focused on shipping production-ready machine learning, RAG, and data intelligence products with measurable user and business impact.',
   headline:
