@@ -15,8 +15,8 @@ export function AboutSection() {
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6 text-sm leading-7 text-slate-300 backdrop-blur-xl md:p-8">
             <p>
               I build intelligent AI systems that bridge modern research with production-grade engineering. My work focuses on 
-              LLM's, RAG, NLP pipelines, and AI-powered platforms designed for real-world usability and scale. With experience 
-              spanning industry and academia, I've worked on diverse projectspanning GenAI applications, conversational systems, 
+              LLM&apos;s, RAG, NLP pipelines, and AI-powered platforms designed for real-world usability and scale. With experience 
+              spanning industry and academia, I&apos;ve worked on diverse projects spanning GenAI applications, conversational systems, 
               geospatial AI, and multimodal research, I have developed systems involving FastAPI-based AI services, WhatsApp-integrated 
               automation platforms, AI-driven recommendation engines, resume intelligence systems, and satellite-image analysis 
               pipelines. 
