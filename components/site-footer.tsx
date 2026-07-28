@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-5 py-8 md:flex-row md:items-center md:justify-between md:px-8">
         <div>
           <p className="text-lg font-semibold text-white">{profile.name}</p>
-          <p className="mt-1 text-sm text-slate-400">ai-ml and gen-ai engineer, with llm specialisation</p>
+          <p className="mt-1 text-sm text-slate-400">AI/ML and Gen-AI Engineer, with LLM specialization</p>
         </div>
         <div className="flex items-center gap-4 text-slate-300">
           <Link href={`mailto:${contactDetails.email}`} aria-label="Email">
