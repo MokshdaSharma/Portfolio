@@ -136,6 +136,36 @@ export const experience: ExperienceItem[] = [
 
 export const projects: ProjectItem[] = [
   {
+    slug: 'satquery-ai',
+    title: 'SatQuery AI',
+    tagline: 'Agentic Remote-Sensing VLM Assistant for Satellite Image Intelligence.',
+    summary:
+      'An agentic vision-language assistant fine-tuned on BigEarthNet, CDVQA, and SECOND with LoRA/QLoRA for satellite image VQA, captioning, semantic change segmentation, and live Sentinel retrieval.',
+    problemStatement:
+      'Standard satellite analytics pipelines lack unified natural-language comprehension for multi-modal Earth Observation tasks (VQA, captioning, change segmentation) paired with live multi-spectral satellite imagery ingestion.',
+    architecture: ['Sentinel-1/2 GEE Stream', 'Agentic Query Router', 'LoRA/QLoRA Fine-Tuned VLMs', 'Change Segmentation Engine', 'Mapbox ROI Interface'],
+    techStack: ['Python', 'PyTorch', 'LoRA / QLoRA', 'HuggingFace', 'Google Earth Engine', 'Mapbox', 'Computer Vision', 'Agentic AI'],
+    keyFeatures: [
+      'Fine-tuned open-source Vision-Language Models (LoRA/QLoRA) on BigEarthNet, CDVQA, and SECOND datasets.',
+      'Comprehensive support for satellite visual question answering (VQA) and multi-spectral captioning.',
+      'Semantic change-type segmentation identifying new construction, demolition, and deforestation.',
+      'Agentic query controller to route user natural-language questions across specialist models.',
+      'Live Sentinel-1/2 imagery retrieval via Google Earth Engine with an interactive Mapbox ROI interface.'
+    ],
+    challenges: [
+      'Adapting parameter-efficient fine-tuning (LoRA/QLoRA) on large-scale multispectral and SAR satellite datasets.',
+      'Designing an agentic routing mechanism that dispatches varied user queries to appropriate specialized model checkpoints.',
+      'Integrating live Google Earth Engine data pipelines smoothly with a responsive Mapbox frontend interface.'
+    ],
+    impact: [
+      'Unified multimodal remote sensing, visual reasoning, and change detection into a single conversational agent.',
+      'Streamlined Earth Observation analysis for environmental surveillance, urban tracking, and change monitoring.',
+      'Demonstrated high-accuracy, parameter-efficient domain adaptation of open-source VLMs.'
+    ],
+    githubUrl: 'https://github.com/MokshdaSharma/SatQuery_AI-SIH26167',
+    liveDemoUrl: 'https://github.com/MokshdaSharma/SatQuery_AI-SIH26167'
+  },
+  {
     slug: 'krishi-vyakriti',
     title: 'Krishi Vyakriti',
     tagline: 'Satellite intelligence for crop diagnostics and multilingual agritech assistance.',

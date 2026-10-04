@@ -1,6 +1,12 @@
 export default function Projects() {
   const projects = [
     {
+      title: "SatQuery AI",
+      tech: "Python, PyTorch, LoRA/QLoRA, HuggingFace, GEE, Mapbox",
+      desc: "Agentic remote-sensing VLM assistant for satellite image VQA, captioning, and semantic change-type segmentation with live Sentinel-1/2 GEE retrieval.",
+      link: "https://github.com/MokshdaSharma/SatQuery_AI-SIH26167"
+    },
+    {
       title: "CogniHire",
       tech: "Python, Polars, LightGBM, FAISS, HuggingFace",
       desc: "Offline-first AI recruitment engine processing 50K+ resumes using SBERT embeddings, FAISS vector search, and LambdaMART reranking.",
